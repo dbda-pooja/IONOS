@@ -93,8 +93,8 @@ To schedule the ETL job, you can use the schedule_job.py script with a task sche
    
     cd ..
    
-3. Run the scheduled_job.py script to execute the ETL pipeline:
-4. 
+2. Run the scheduled_job.py script to execute the ETL pipeline:
+
     python scheduled_job.py
 
 **ETL Pipeline**
@@ -113,19 +113,19 @@ The ETL (Extract, Transform, Load) pipeline includes the following steps:
     Function: preprocess_data(df)
     Description: Handles the preprocessing of the data, such as handling missing values, encoding categorical variables, and normalizing numerical features.
 
-4.  Feature Engineering
+3.  Feature Engineering
 
     Script: feature_engineering.py
     Function: feature_engineering(df)
     Description: Performs feature engineering to create new features that can improve the performance of machine learning models.
 
-6.  Save the Transformed Data to Database
+4.  Save the Transformed Data to Database
 
     Script: save_to_db.py
     Function: save_to_db(df, db_path)
     Description: Saves the processed data into an SQLite database.
 
-8.  Main ETL Process
+5.  Main ETL Process
 
     Script: etl_process.py
     Function: etl_process(file_path, db_path)
@@ -166,6 +166,9 @@ Here are the SQL queries to answer specific questions from the database:
     FROM titanic
     GROUP BY Pclass;
 
+Run the sql_queries.py script to execute the SQL queries:
+
+python sql_queries.py
 
 
 
