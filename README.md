@@ -4,6 +4,21 @@
 
 🔹Overview : This repository made to demonstrate implementation of given assessment. This project implements an Extract-Transform-Load (ETL) pipeline for the Titanic dataset. The pipeline includes data loading, preprocessing, feature engineering, and storing the cleaned data into an SQLite database. The analysis is performed using Jupyter notebooks, and the ETL (Extract, Transform, Load) process is automated through scripts. Additionally, a scheduled job runs this ETL process daily.
 
+**Dataset Information**
+
+The dataset includes the following columns:
+
+Survived : Indicates whether the passenger survived (1) or not (0).
+Pclass : Passenger class (1 = 1st class, 2 = 2nd class, 3 = 3rd class).
+Name : Name of the passenger.
+Sex : Gender of the passenger.
+Age : Age of the passenger.
+SibSp : Number of siblings/spouses aboard the Titanic.
+Parch : Number of parents/children aboard the Titanic.
+Ticket : Ticket number.
+Fare : Passenger fare.
+Cabin : Cabin number.
+Embarked : Port of embarkation (C = Cherbourg, Q = Queenstown, S = Southampton).
 
 🔸Project Structure
 
