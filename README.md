@@ -168,7 +168,7 @@ Here are the SQL queries to answer specific questions from the database:
 
 Run the sql_queries.py script to execute the SQL queries:
 
-python sql_queries.py
+    python sql_queries.py
 
 
 
