@@ -5,25 +5,7 @@
 
 
 🔸Project Structure
-
-titanic_project                                                                                                                                                                                                              
-|   ├── data/                                                                                                                                                                                                                
-│   ├── titanic.csv/                 # Raw CSV files                                                                                                                                                                       
-│   └── titanic.db                   # SQLite database
-│   
-│
-├── Scripts/
-│   ├── load_data.py                 # Module for loading data
-│   ├── preprocess_data.py           # Module for preprocessing data
-│   ├── feature_engineering.py       # Module for feature engineering
-│   ├── save_to_db.py                # Module for saving data to database
-│   └── etl_process.py               # Main ETL process
-│
-├── titanic_data_analysis.ipynb      # Jupyter notebooks for analysis
-│
-├── schedule_job.py                  # Script for scheduling the ETL job
-│
-├── README.md                        # Project README file
+![Project Structure](https://github.com/dbda-pooja/IONOS/blob/main/titanic_project/Architecture_diagram/project_structure.png)
 
 🔸Contents
 ## Data
