@@ -6,10 +6,9 @@
 
 🔸Project Structure
 
-titanic_project/
-│
-├── data/   
-│   ├── titanic.csv/                 # Raw CSV files
+titanic_project                                                                                                                                                                                                              
+|   ├── data/                                                                                                                                                                                                                
+│   ├── titanic.csv/                 # Raw CSV files                                                                                                                                                                       
 │   └── titanic.db                   # SQLite database
 │   
 │
@@ -107,7 +106,7 @@ The ETL (Extract, Transform, Load) pipeline includes the following steps:
 
 ### Data Pipeline Architecture Diagram
 Here is a simple data pipeline architecture diagram:
-![Data Pipeline Architecture Diagram](titanic_project\Architecture_diagram\data_pipeline_architecture_diagram.png)
+![Data Pipeline Architecture Diagram](https://github.com/dbda-pooja/IONOS/blob/main/titanic_project/Architecture_diagram/data_pipeline_architecture_diagram.png)
 
 
 ### Data Analysis
