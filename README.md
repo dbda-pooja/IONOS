@@ -33,7 +33,7 @@ titanic.db : This SQLite database contains the processed data, making it easy to
 
 **Scheduling**
 
-*schedule_job.py : This script is used to schedule the ETL job. It can be set up with a task scheduler to run the ETL process at regular intervals.
+* schedule_job.py : This script is used to schedule the ETL job. It can be set up with a task scheduler to run the ETL process at regular intervals.
 
 🔸Getting Started
 
@@ -68,7 +68,8 @@ To schedule the ETL job, you can use the schedule_job.py script with a task sche
 2. Run the scheduled_job.py script to execute the ETL pipeline:
     python scheduled_job.py
 
-### ETL Pipeline
+**ETL Pipeline**
+
 The ETL (Extract, Transform, Load) pipeline includes the following steps:
 
 1. Load the Data from CSV
@@ -102,12 +103,16 @@ The ETL (Extract, Transform, Load) pipeline includes the following steps:
     Description: Orchestrates the entire ETL process, calling the other scripts in sequence to load, preprocess, and save the data.
 
 
+
 **Data Pipeline Architecture Diagram**
+
+
 Here is a simple data pipeline architecture diagram:
 ![Data Pipeline Architecture Diagram](https://github.com/dbda-pooja/IONOS/blob/main/titanic_project/Architecture_diagram/data_pipeline_architecture_diagram.png)
 
 
 **Data Analysis**
+
 The Jupyter notebook titanic_data_analysis.ipynb contains various data analysis tasks, such as exploring the dataset, visualizing data, and building predictive models. Here are some key points of the analysis:
 
 Survival Count: Visualize the count of survivors and non-survivors.
@@ -116,6 +121,7 @@ Age Distribution: Analyze the age distribution of the passengers.
 
 
 **SQL Queries**
+
 Here are the SQL queries to answer specific questions from the database:
 
 1. Average Age of Women Who Survived
