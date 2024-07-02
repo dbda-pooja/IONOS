@@ -1,6 +1,7 @@
 #IONOS
 
 **Titanic ETL Pipeline**
+
 🔹Overview : This repository made to demonstrate implementation of given assessment. This project implements an Extract-Transform-Load (ETL) pipeline for the Titanic dataset. The pipeline includes data loading, preprocessing, feature engineering, and storing the cleaned data into an SQLite database. The analysis is performed using Jupyter notebooks, and the ETL (Extract, Transform, Load) process is automated through scripts. Additionally, a scheduled job runs this ETL process daily.
 
 
@@ -9,7 +10,8 @@
 ![Project Structure](https://github.com/dbda-pooja/IONOS/blob/main/titanic_project/Architecture_diagram/project_structure.png)
 
 🔸Contents
-## Data
+
+**Data**
 titanic.csv: This is the raw data file containing information about the passengers on the Titanic.
 titanic.db: This SQLite database contains the processed data, making it easy to query and analyze.
 
@@ -20,14 +22,18 @@ titanic.db: This SQLite database contains the processed data, making it easy to 
 * save_to_db.py: This script saves the processed data into an SQLite database.
 * etl_process.py: This script orchestrates the entire ETL process, calling the other scripts in sequence to load, preprocess, and save the data.
 
+
+
 **Analysis**
 * titanic_data_analysis.ipynb: This Jupyter notebook contains various data analysis tasks, such as exploring the dataset, visualizing data, and building predictive models.
 
-### Scheduling
+
+**Scheduling**
 *schedule_job.py: This script is used to schedule the ETL job. It can be set up with a task scheduler to run the ETL process at regular intervals.
 
 🔸Getting Started
-### Prerequisites
+**Prerequisites**
+
 To run this project, you'll need the following installed:
 * Python 3.x
 * pandas
