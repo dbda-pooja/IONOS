@@ -5,6 +5,7 @@
 
 
 🔸Project Structure
+
 ![Project Structure](https://github.com/dbda-pooja/IONOS/blob/main/titanic_project/Architecture_diagram/project_structure.png)
 
 🔸Contents
