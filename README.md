@@ -71,7 +71,7 @@ pip install pandas numpy scikit-learn jupyter sqlite3
 
 1. Navigate to the Scripts directory:
 
-    cd Scripts
+   cd Scripts
    
 3. Run the etl_process.py script to execute the ETL pipeline:
    
