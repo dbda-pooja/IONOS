@@ -6,9 +6,8 @@
 
 🔸Project Structure
 
-titanic_project/
-│
-├── data/   
+titanic_project
+    -data/   
 │   ├── titanic.csv/                 # Raw CSV files
 │   └── titanic.db                   # SQLite database
 │   
