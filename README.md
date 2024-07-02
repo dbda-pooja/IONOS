@@ -35,17 +35,17 @@ titanic.csv : This is the raw data file containing information about the passeng
 titanic.db : This SQLite database contains the processed data, making it easy to query and analyze.
 
 **Scripts**
-* load_data.py: This script is responsible for loading the raw data from the CSV file into a pandas DataFrame.
-* preprocess_data.py: This script handles the preprocessing of the data, such as handling missing values, encoding categorical variables, and normalizing numerical features.
-* feature_engineering.py: This script performs feature engineering to create new features that can improve the performance of machine learning models.
-* save_to_db.py: This script saves the processed data into an SQLite database.
-* etl_process.py: This script orchestrates the entire ETL process, calling the other scripts in sequence to load, preprocess, and save the data.
+* load_data.py : This script is responsible for loading the raw data from the CSV file into a pandas DataFrame.
+* preprocess_data.py : This script handles the preprocessing of the data, such as handling missing values, encoding categorical variables, and normalizing numerical features.
+* feature_engineering.py : This script performs feature engineering to create new features that can improve the performance of machine learning models.
+* save_to_db.py : This script saves the processed data into an SQLite database.
+* etl_process.py : This script orchestrates the entire ETL process, calling the other scripts in sequence to load, preprocess, and save the data.
 
 
 
 **Analysis**
 
-* titanic_data_analysis.ipynb: This Jupyter notebook contains various data analysis tasks, such as exploring the dataset, visualizing data, and building predictive models.
+* titanic_data_analysis.ipynb : This Jupyter notebook contains various data analysis tasks, such as exploring the dataset, visualizing data, and building predictive models.
 
 
 **Scheduling**
@@ -68,21 +68,33 @@ To run this project, you'll need the following installed :
 pip install pandas numpy scikit-learn jupyter sqlite3
 
 **Running the ETL Process**
-1. Navigate to the Scripts directory: 
+
+1. Navigate to the Scripts directory:
+
     cd Scripts
-2. Run the etl_process.py script to execute the ETL pipeline:
+   
+3. Run the etl_process.py script to execute the ETL pipeline:
+   
     python etl_process.py
 
 **Analyzing the Data**
+
 1. Open the Jupyter notebook:
+   
     jupyter notebook titanic_data_analysis.ipynb
+   
 2. Follow the steps in the notebook to perform data analysis and build predictive models.
 
 **Scheduling the ETL Job**
-To schedule the ETL job, you can use the schedule_job.py script with a task scheduler. 
-1. Navigate to the titanic_project directory: 
+
+To schedule the ETL job, you can use the schedule_job.py script with a task scheduler.
+
+1. Navigate to the titanic_project directory:
+   
     cd ..
-2. Run the scheduled_job.py script to execute the ETL pipeline:
+   
+3. Run the scheduled_job.py script to execute the ETL pipeline:
+4. 
     python scheduled_job.py
 
 **ETL Pipeline**
