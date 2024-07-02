@@ -1,4 +1,4 @@
-#IONOS
+# IONOS
 
 **Titanic ETL Pipeline**
 
@@ -27,16 +27,19 @@ titanic.db : This SQLite database contains the processed data, making it easy to
 
 
 **Analysis**
+
 * titanic_data_analysis.ipynb: This Jupyter notebook contains various data analysis tasks, such as exploring the dataset, visualizing data, and building predictive models.
 
 
 **Scheduling**
-*schedule_job.py: This script is used to schedule the ETL job. It can be set up with a task scheduler to run the ETL process at regular intervals.
+
+*schedule_job.py : This script is used to schedule the ETL job. It can be set up with a task scheduler to run the ETL process at regular intervals.
 
 🔸Getting Started
+
 **Prerequisites**
 
-To run this project, you'll need the following installed:
+To run this project, you'll need the following installed :
 * Python 3.x
 * pandas
 * numpy
@@ -47,7 +50,7 @@ To run this project, you'll need the following installed:
 * You can install the required packages using pip: 
 pip install pandas numpy scikit-learn jupyter sqlite3
 
-### Running the ETL Process
+**Running the ETL Process**
 1. Navigate to the Scripts directory: 
     cd Scripts
 2. Run the etl_process.py script to execute the ETL pipeline:
