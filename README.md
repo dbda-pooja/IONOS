@@ -12,8 +12,10 @@
 🔸Contents
 
 **Data**
-titanic.csv: This is the raw data file containing information about the passengers on the Titanic.
-titanic.db: This SQLite database contains the processed data, making it easy to query and analyze.
+
+titanic.csv : This is the raw data file containing information about the passengers on the Titanic.
+
+titanic.db : This SQLite database contains the processed data, making it easy to query and analyze.
 
 **Scripts**
 * load_data.py: This script is responsible for loading the raw data from the CSV file into a pandas DataFrame.
