@@ -8,7 +8,7 @@
 
 titanic_project                                                                                                                                                                                                              
 |   |──data/                                                                                                                                                                                                                 
-│   ├── titanic.csv/                 # Raw CSV files                                                                                                                                                                         
+│   ├── titanic.csv/                 # Raw CSV files                                                                                                                                                                       
 │   └── titanic.db                   # SQLite database
 │   
 │
