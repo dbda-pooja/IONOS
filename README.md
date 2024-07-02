@@ -115,9 +115,9 @@ Here is a simple data pipeline architecture diagram:
 
 The Jupyter notebook titanic_data_analysis.ipynb contains various data analysis tasks, such as exploring the dataset, visualizing data, and building predictive models. Here are some key points of the analysis:
 
-Survival Count: Visualize the count of survivors and non-survivors.
-Survival Rate by Class: Explore how survival rates vary by passenger class.
-Age Distribution: Analyze the age distribution of the passengers.
+* Survival Count : Visualize the count of survivors and non-survivors.
+* Survival Rate by Class : Explore how survival rates vary by passenger class.
+* Age Distribution : Analyze the age distribution of the passengers.
 
 
 **SQL Queries**
@@ -125,12 +125,12 @@ Age Distribution: Analyze the age distribution of the passengers.
 Here are the SQL queries to answer specific questions from the database:
 
 1. Average Age of Women Who Survived
-    SELECT AVG(Age) AS avg_age_survived_women
+    - SELECT AVG(Age) AS avg_age_survived_women
     FROM titanic
     WHERE Survived = 1 AND Sex = 'female';
 
-2. Average and Maximum Fares for Each Class
-    SELECT Pclass, AVG(Fare) AS avg_fare, MAX(Fare) AS max_fare
+3. Average and Maximum Fares for Each Class
+   - SELECT Pclass, AVG(Fare) AS avg_fare, MAX(Fare) AS max_fare
     FROM titanic
     GROUP BY Pclass;
 
